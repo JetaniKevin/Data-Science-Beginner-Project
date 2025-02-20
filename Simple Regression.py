@@ -10,16 +10,14 @@ Original file is located at
 
 # **Load Data**
 """
-
-
-
-"""# **Data Preparation**"""
-
 import pandas as pd
 
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/delaney_solubility_with_descriptors.csv')
 
 df
+
+
+"""# **Data Preparation**"""
 
 """### **Data Separation as x and y**"""
 
